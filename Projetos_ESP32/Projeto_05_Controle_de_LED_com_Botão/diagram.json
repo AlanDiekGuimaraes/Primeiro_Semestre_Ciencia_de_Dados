@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Alan Diek Guimarães",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 75.66,
+      "left": -22.3,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 54, "left": -34.6, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn1",
+      "top": 65,
+      "left": 38.4,
+      "attrs": { "color": "blue" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.2", "led1:C", "black", [ "v0" ] ],
+    [ "esp:21", "led1:A", "red", [ "v0" ] ],
+    [ "btn1:2.r", "esp:0", "red", [ "h0" ] ],
+    [ "esp:GND.3", "btn1:1.l", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

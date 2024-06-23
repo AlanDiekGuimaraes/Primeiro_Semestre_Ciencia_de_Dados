@@ -1,0 +1,74 @@
+
+body {
+
+    background: url(img/fundo_amarelado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.btn_upgrade img{
+    
+    width: 120px; 
+}
+.btn_upgrade {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#topo {
+    padding: 20px 20px;
+    margin: 0 auto;
+    height: auto;
+    background-color: aqua;
+}
+
+#manipula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 20px;
+}
+
+.titulo {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.subtitulo {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#direita1 img {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px #00000015;
+}
+#direita2 {
+    border-radius: 40px;
+}

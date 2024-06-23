@@ -1,0 +1,9 @@
+# 26 - Função RECURSIVA
+
+
+def fatorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fatorial (n-1)
+fatorial(4)

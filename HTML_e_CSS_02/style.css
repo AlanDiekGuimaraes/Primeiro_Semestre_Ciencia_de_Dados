@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+.centralizar {
+    gap: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+main {}
+
+body {
+
+    /* Aplica a imagem */
+    background-image: url(img/Fundo_Site.png);
+    /* Não repetir a imagem */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela */
+    background-size: cover;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+p {
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: -3px;
+    margin-right: 30px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 400px;
+    background-color: #391a04;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+form p {
+    margin: 10px 10px;
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+label {
+    margin: 15px 15px;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: #6f5746 2px solid;
+    border-radius: 20px;
+    background-color: #b6a89e;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+.btn-enviar {
+    margin-top: 60px;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    border: #6f5746 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #b6a89e;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 28px;
+}
+
+.texto_rodape {
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
